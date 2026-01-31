@@ -1,0 +1,14 @@
+name = "eds"
+main = "src/worker.js"
+workers_dev = true
+compatibility_date = "2025-07-05"
+
+[observability]
+enabled = true
+
+[vars]
+EBSCO_PROFILE = "libchattu"
+
+[[kv_namespaces]]
+id = "fd20f06d58bd4be2b0e75a1214486eee"
+binding = "KV"
